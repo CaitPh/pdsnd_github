@@ -28,7 +28,7 @@ def get_filters():
             city = city_input
             break
         else:
-            print('Your chosen city has been entered incorrectly. Please pay attention to the correct syntax for your chosen city and try again.')
+            print('Your chosen city has been entered incorrectly. Please try again.')
 
     # get user input for month (all, january, february, ... , june)
     month_accepted_inputs = ('all', 'january', 'february', 'march', 'april', 'may', 'june')
@@ -39,7 +39,7 @@ def get_filters():
             month = month_input
             break
         else:
-            print('Your chosen month has been entered incorrectly. Please ensure your input is the full name of a month from January to June, or "all" has been entered to view data for all months.')
+            print('Your chosen month has been entered incorrectly. Please try again.')
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day_accepted_inputs = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday')
@@ -50,7 +50,7 @@ def get_filters():
             day = day_input
             break
         else:
-            print('Your chosen day has been entered incorrectly. Please ensure your input is the full name of a day, or "all" has been entered to view data for all days.')
+            print('Your chosen day has been entered incorrectly. Please try again.')
 
     print('-'*40)
     return city, month, day
