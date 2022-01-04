@@ -15,3 +15,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
+Structure for this code was based upon the code template provided by Udacity.
