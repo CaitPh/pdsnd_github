@@ -16,3 +16,4 @@ washington.csv
 
 ### Credits
 Structure for this code was based upon the code template provided by Udacity.
+The function 'load_data' was constructed with help from Practice Solution \#3 in the python project module from Udacity.
